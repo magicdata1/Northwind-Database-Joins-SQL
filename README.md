@@ -10,7 +10,7 @@ I analysed the Northwind schema to understand the relationships between tables l
 
 ## 1. INNER JOIN Examples
 
-This screenshot shows basic INNER JOIN operations:
+This shows basic INNER JOIN operations:
 - Join **Customers → Orders**
 - Join **Orders → Employees**
 - Join **Products → Suppliers**
@@ -22,7 +22,6 @@ This screenshot shows basic INNER JOIN operations:
 
 ## 2. LEFT / RIGHT / CROSS JOIN + COUNT()
 
-This screenshot demonstrates:
 - **RIGHT JOIN** to find *employees with no orders*
 - **CROSS JOIN** to generate Cartesian products
 - **COUNT()** for Customers and Orders
@@ -32,11 +31,9 @@ This screenshot demonstrates:
 
 ---
 
-# 3. Filtering with WHERE + INNER JOIN (Image 3)
+# 3. Filtering with WHERE + INNER JOIN
 
 This screenshot focuses on combining filtering and INNER JOIN operations.
-
-Skills demonstrated:
 
 - Filtering suppliers using `WHERE SupplierName = 'G'day, Mate'`  
 - Joining Employees → Orders  
@@ -49,11 +46,9 @@ Skills demonstrated:
 
 ---
 
-# 4. Multi‑Table JOINs + Finding Missing Records (Image 4)
+# 4. Multi‑Table JOINs + Finding Missing Records
 
 This section shows more advanced JOIN usage, especially for identifying missing/non-matching rows.
-
-Skills demonstrated:
 
 - 3‑table join: **Orders + Order_Details + Products**  
 - LEFT JOIN to find customers **with or without** orders  
@@ -68,7 +63,7 @@ Skills demonstrated:
 
 ## 5. Aggregations (SUM, COUNT) + GROUP BY
 
-This screenshot includes:
+This includes:
 - SUM of product quantities  
 - COUNT of orders per shipper  
 - Total sales per product (`SUM(quantity * price)`)
